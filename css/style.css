@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    
+}
+
+
+
+.DavidL {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+    grid-template-areas: 
+    "he he he he he"
+    "na na na na as"
+    "al al al al as"
+    "al al al al as"
+    "a2 a2 a2 a2 as"
+    "fo fo fo fo fo"
+    
+    
+     ;
+
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2px;
+
+}
+
+.header{
+    grid-area: he;
+    background: skyblue;
+}
+.nav{
+    grid-area: na;
+    background: lightcoral;
+}
+.article{
+    grid-area: al;
+    background: lightcoral;
+}
+.article2{
+    grid-area: a2;
+    background: lightcoral;
+}
+.aside{
+    grid-area: as;
+    background: lightgreen;
+}
+
+.footer{
+    grid-area: fo;
+    background:thistle;
+}
+
+
+
+
+
+
+
+
